@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailScreen">
+
+    <ImageView
+        android:id="@+id/Pimage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <TextView
+        android:id="@+id/Ptitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title" />
+
+    <TextView
+        android:id="@+id/Pdescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="description" />
+
+    <TextView
+        android:id="@+id/Pbrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="brand" />
+
+    <TextView
+        android:id="@+id/Pmodel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="model" />
+
+    <TextView
+        android:id="@+id/Pprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="price" />
+
+    <TextView
+        android:id="@+id/Pcolor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="color" />
+
+    <TextView
+        android:id="@+id/Pdis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="discount" />
+
+    <TextView
+        android:id="@+id/Pcate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="category" />
+
+
+</LinearLayout>
